@@ -65,7 +65,7 @@ ol {
 }
 
 a {
-  color: #ffffff;
+  color: #000000;
 
   &:hover,
   &:focus {
@@ -81,17 +81,27 @@ main {
 }
 
 header {
+  background-color: #343434;
   max-width: 100%;
+  padding: 30px 30px;
   height: 40px;
-  background-color: chartreuse;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin-bottom: 30px;
+}
+
+header p {
+  color: hsl(0, 0%, 100%);
 }
 
 footer {
 	padding: 25px;
 	text-align: center;
 	margin-top: auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto
 }
